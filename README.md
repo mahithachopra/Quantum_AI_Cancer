@@ -1,36 +1,45 @@
 # ⚛️🧬 Quantum AI Cancer Platform
 
-> **An AI + Quantum Machine Learning Powered Precision Oncology Clinical Decision Support System**
+> **Quantum AI Cancer Platform: A Hybrid AI–Quantum Machine Learning Framework for Precision Oncology Clinical Decision Support**
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688.svg)
-![React](https://img.shields.io/badge/React-19-blue.svg)
-![Material UI](https://img.shields.io/badge/Material_UI-MUI-blue.svg)
-![Quantum Machine Learning](https://img.shields.io/badge/QML-QSVC%20%7C%20QNN-purple.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react)
+![Material UI](https://img.shields.io/badge/Material_UI-MUI-007FFF?logo=mui)
+![Quantum ML](https://img.shields.io/badge/Quantum_Machine_Learning-QML-purple)
+![Neo4j](https://img.shields.io/badge/Neo4j-Knowledge_Graph-4581C3?logo=neo4j)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+</p>
 
 ---
 
 # 📖 Overview
 
-**Quantum AI Cancer Platform** is a full-stack **Artificial Intelligence (AI)** and **Quantum Machine Learning (QML)** powered precision oncology clinical decision support system designed to assist researchers and healthcare professionals in mutation-driven cancer therapy analysis.
+**Quantum AI Cancer Platform** is a next-generation **Precision Oncology Clinical Decision Support System (CDSS)** that integrates **Artificial Intelligence (AI)**, **Quantum Machine Learning (QML)**, **Knowledge Graphs**, **Biomedical Literature Mining**, and **Explainable AI (XAI)** to support mutation-driven cancer therapy recommendations.
 
-The platform combines **classical AI**, **Quantum Machine Learning**, **Explainable AI (XAI)**, biomedical literature mining, and clinical trial matching into a unified intelligent platform for personalized oncology recommendations.
+The platform is designed as a **hybrid AI–Quantum intelligent framework** capable of analysing genomic mutations, identifying actionable biomarkers, recommending targeted therapies, discovering relevant clinical trials, retrieving supporting biomedical literature, and generating explainable clinical reports.
 
-Unlike traditional AI systems, this project incorporates **Quantum Support Vector Classifiers (QSVC)** and **Quantum Neural Networks (QNN)** to investigate hybrid AI–Quantum approaches for precision medicine.
+Unlike conventional oncology decision-support systems, this project incorporates **Quantum Machine Learning (QML)** techniques such as **Quantum Support Vector Classifier (QSVC)** and **Quantum Neural Networks (QNN)** alongside classical machine learning models to investigate quantum-enhanced predictive analytics in precision medicine.
 
 ---
 
-# 🎯 Objectives
+# 🎯 Motivation
 
-- Analyze genomic mutations
-- Identify actionable biomarkers
-- Recommend targeted therapies
-- Match clinical trials
-- Mine biomedical literature
-- Explain AI decisions using XAI
-- Generate professional clinical reports
-- Explore Quantum Machine Learning for precision oncology
+Cancer treatment increasingly relies on genomic profiling to identify personalized therapies. However, interpreting mutation data requires integrating information from numerous biomedical resources, clinical evidence, and therapeutic guidelines.
+
+The Quantum AI Cancer Platform aims to simplify this process by providing a unified system that:
+
+- Analyses genomic mutations
+- Identifies clinically actionable biomarkers
+- Recommends targeted therapies
+- Matches relevant clinical trials
+- Mines biomedical literature
+- Explains AI-driven recommendations
+- Generates professional clinical reports
+- Explores Quantum Machine Learning for precision oncology
 
 ---
 
@@ -38,129 +47,139 @@ Unlike traditional AI systems, this project incorporates **Quantum Support Vecto
 
 ## 🧬 Mutation Analysis
 
-- Gene mutation input
-- Mutation summary
-- Biomarker analysis
+- Multi-gene mutation analysis
+- Mutation summary dashboard
+- Biomarker identification
 - Pathway analysis
-- AI pipeline visualization
+- Mutation visualization
+- AI pipeline monitoring
 
 ---
 
-## 💊 Drug Recommendation Engine
+## 💊 Intelligent Drug Recommendation
 
-- AI-powered targeted therapy recommendations
-- Drug confidence scoring
-- FDA evidence
-- Recommendation ranking
+- AI-powered targeted therapy recommendation
+- Confidence scoring
+- Drug ranking
+- FDA evidence integration
+- Biomarker-driven therapy selection
 
 ---
 
-## ⚛️ Quantum Machine Learning
+## ⚛️ Quantum Machine Learning Integration
 
-Integrated Quantum AI modules include:
+The backend incorporates dedicated **Quantum Machine Learning (QML)** modules, enabling hybrid AI–Quantum inference.
+
+Implemented QML components include:
 
 - Quantum Feature Maps
 - Quantum Kernel Learning
 - Quantum Support Vector Classifier (QSVC)
 - Quantum Neural Networks (QNN)
-- Hybrid AI–Quantum inference pipeline
+- Hybrid Classical–Quantum Prediction Pipeline
+- Quantum Model Loader
+- Quantum Prediction Engine
 
-These components complement classical AI models to explore quantum-enhanced predictive analytics for cancer precision medicine.
-
----
-
-## 🔍 Explainable AI (XAI)
-
-- AI reasoning pipeline
-- Confidence breakdown
-- Evidence scoring
-- Decision workflow
-- Supporting literature
-- Supporting clinical trials
+These components complement classical AI models to investigate quantum-enhanced approaches for mutation-based therapeutic decision support.
 
 ---
 
 ## 📚 Biomedical Literature Mining
 
 - Literature retrieval
-- Research evidence
-- Publication summaries
-- Scientific references
+- Publication analysis
+- Research evidence aggregation
+- Scientific reference integration
 
 ---
 
 ## 🧪 Clinical Trial Matching
 
-- Ongoing trials
-- Trial phases
+- ClinicalTrials.gov integration
+- Trial discovery
+- Phase identification
 - Recruitment status
-- Matching based on genomic mutations
+- Mutation-based trial matching
+
+---
+
+## 🔍 Explainable AI (XAI)
+
+The platform provides transparent AI decision-making through:
+
+- AI reasoning pipeline
+- Confidence analysis
+- Evidence scoring
+- Decision workflow
+- Literature support
+- Clinical trial support
+- Recommendation justification
 
 ---
 
 ## 📄 Clinical Report Generation
 
-Generate professional reports including:
+Generate comprehensive clinical reports including:
 
-- Executive Summary
-- Patient mutation profile
+- Patient mutation summary
 - Drug recommendations
-- Literature summary
+- Evidence summary
+- Literature references
 - Clinical trials
-- PDF Export
-- CSV Export
-- Print Support
+- PDF export
+- CSV export
+- Print-ready reports
 
 ---
 
-## ⚙️ System Settings
+## ⚙️ System Configuration
 
-- AI Configuration
-- Pipeline Settings
+Administrative settings include:
+
+- AI configuration
+- Pipeline settings
 - Appearance
-- Notifications
-- Security
-- Database Connections
-- System Information
+- Notification preferences
+- Database connectivity
+- System information
 
 ---
 
-# 🏗️ System Architecture
+# 🏗 System Architecture
 
-```
-                    ┌──────────────────────┐
-                    │   React Frontend     │
-                    │  Material UI + Vite  │
-                    └──────────┬───────────┘
-                               │
-                     REST API (FastAPI)
-                               │
-            ┌──────────────────┼──────────────────┐
-            │                  │                  │
-            ▼                  ▼                  ▼
-      AI Pipeline       Quantum ML         Knowledge Base
-     (ML Models)      QSVC / QNN           Literature
-            │                  │
-            └──────────┬───────┘
-                       ▼
-              Hybrid AI Decision Engine
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
- Drug Ranking    Clinical Trials   Literature
-        │
-        ▼
- Explainable AI
-        │
-        ▼
- Clinical Reports
+```text
+                              USER / CLINICIAN
+                                     │
+                         React Web Interface
+                                     │
+                              FastAPI Backend
+                                     │
+                       Multi-Agent Pipeline Controller
+                                     │
+      ┌──────────────────────────────┼──────────────────────────────┐
+      ▼                              ▼                              ▼
+ Mutation Agent              Knowledge Graph               AI + Quantum Engine
+                         (Neo4j,postgres sql)                  (ML + QSVC + QNN)
+      │                              │                              │
+      └─────────────── Evidence Integration & Decision Engine ──────┘
+                                     │
+                                     ▼
+                    Drug Recommendation & Ranking Engine
+                                     │
+          ┌──────────────────────────┼───────────────────────────┐
+          ▼                          ▼                           ▼
+ Literature Mining          Clinical Trial Matching      Explainable AI
+          │                          │                           │
+          └──────────────────────────┼───────────────────────────┘
+                                     ▼
+                        Clinical Report Generation
 ```
 
 ---
 
 # ⚛️ AI + Quantum Workflow
 
-```
+```text
 Patient Mutation Data
         │
         ▼
@@ -169,226 +188,488 @@ Mutation Detection
         ▼
 Feature Engineering
         │
-        ├──────────────┐
-        ▼              ▼
- Classical AI      Quantum ML
-                    QSVC / QNN
-        └──────┬───────┘
-               ▼
- Hybrid AI–Quantum Ranking
-               ▼
-Drug Recommendation
-               ▼
-Evidence Aggregation
-               ▼
-Clinical Trials
-               ▼
-Literature Mining
-               ▼
-Explainable AI
-               ▼
-Clinical Report
+        ├─────────────────────┐
+        ▼                     ▼
+ Classical AI           Quantum ML
+ (ML Models)           QSVC / QNN
+        └──────────┬──────────┘
+                   ▼
+      Hybrid AI–Quantum Decision Engine
+                   │
+                   ▼
+        Drug Recommendation Engine
+                   │
+        ┌──────────┼──────────┐
+        ▼          ▼          ▼
+ Literature   Clinical Trials  Knowledge Graph
+        │          │          │
+        └──────────┼──────────┘
+                   ▼
+          Explainable AI (XAI)
+                   │
+                   ▼
+      Clinical Report Generation
 ```
 
 ---
+
+# 🤖 Multi-Agent Pipeline
+
+```text
+Mutation Agent
+        │
+        ▼
+Knowledge Graph Agent
+        │
+        ▼
+Pathway Analysis Agent
+        │
+        ▼
+Drug Recommendation Agent
+        │
+        ▼
+Evidence Aggregation Agent
+        │
+        ▼
+Literature Mining Agent
+        │
+        ▼
+Clinical Trial Agent
+        │
+        ▼
+Explainability Agent
+        │
+        ▼
+Report Generation Agent
+```
+
+---
+
+# 🏆 Major Platform Modules
+
+- 📊 Dashboard
+- 🧬 Mutation Analysis
+- 💊 Drug Recommendations
+- 🧪 Clinical Trials
+- 📚 Literature Mining
+- 🔍 Explainable AI
+- 📄 Clinical Reports
+- ⚙️ Settings
+- ⚛️ Quantum Machine Learning Engine
+
+---
+
+# 🌟 Research Contribution
+
+This project demonstrates the integration of:
+
+- Artificial Intelligence (AI)
+- Quantum Machine Learning (QML)
+- Explainable AI (XAI)
+- Knowledge Graphs
+- Biomedical Literature Mining
+- Clinical Trial Matching
+- Precision Oncology
+
+within a unified clinical decision-support framework.
+
+It serves as a research prototype exploring hybrid AI–Quantum approaches for genomic mutation interpretation and evidence-based cancer therapy recommendation.
+
+------
 
 # 💻 Technology Stack
 
 ## Frontend
 
-- React
-- Material UI
-- React Router
-- Axios
-- Recharts
-- jsPDF
-- html2canvas
+| Technology | Purpose |
+|------------|---------|
+| React.js | User Interface |
+| Material UI | UI Components |
+| React Router | Routing |
+| Axios | API Communication |
+| Recharts | Data Visualization |
+| HTML2Canvas | Report Export |
+| jsPDF | PDF Generation |
+| Vite | Frontend Build Tool |
 
 ---
 
 ## Backend
 
-- FastAPI
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Pydantic
+| Technology | Purpose |
+|------------|---------|
+| FastAPI | REST API |
+| Python | Backend Development |
+| Pydantic | Data Validation |
+| Pandas | Data Processing |
+| NumPy | Numerical Computing |
+| Scikit-learn | Machine Learning |
+| Uvicorn | ASGI Server |
+
+---
+
+## Artificial Intelligence
+
+- Machine Learning
+- Drug Recommendation Engine
+- Mutation Analysis
+- Evidence Aggregation
+- Confidence Scoring
+- Explainable AI (XAI)
 
 ---
 
 ## Quantum Machine Learning
 
+The platform integrates Quantum Machine Learning modules including:
+
 - Quantum Support Vector Classifier (QSVC)
 - Quantum Neural Networks (QNN)
+- Quantum Feature Maps
 - Quantum Kernels
-- Feature Maps
-- Hybrid Quantum-Classical Learning
+- Hybrid Quantum-Classical Learning Pipeline
+
+These components investigate the use of quantum-enhanced learning for mutation-driven precision oncology.
 
 ---
 
-## AI Components
+## Knowledge Integration
 
-- Mutation Analysis
-- Drug Ranking
-- Knowledge Graph
-- Literature Mining
+- Neo4j Knowledge Graph
+- Biomedical Literature Mining
 - Clinical Trial Matching
-- Explainable AI
+- Evidence Aggregation
 
 ---
 
 # 📂 Project Structure
 
 ```
-Quantum_AI_Cancer/
+
+Quantum\_AI\_Cancer/
 
 ├── backend/
-│   ├── app/
-│   ├── api/
-│   ├── models/
-│   ├── services/
-│   ├── qml/
-│   │   ├── qsvc.py
-│   │   ├── qnn.py
-│   │   ├── feature_maps.py
-│   │   ├── kernels.py
-│   │   └── predictor.py
-│   └── requirements.txt
+│
+├── app/
+│ ├── api/
+│ ├── agents/
+│ ├── services/
+│ ├── models/
+│ ├── schemas/
+│ ├── qml/
+│ │ ├── qnn.py
+│ │ ├── qsvc.py
+│ │ ├── kernels.py
+│ │ ├── feature\_maps.py
+│ │ └── predictor.py
+│ │
+│ ├── knowledge\_graph/
+│ ├── literature/
+│ ├── explainability/
+│ ├── reports/
+│ └── main.py
 │
 ├── frontend/
-│   ├── src/
-│   │
-│   ├── pages/
-│   │   ├── Dashboard
-│   │   ├── Mutation Analysis
-│   │   ├── Recommendations
-│   │   ├── Clinical Trials
-│   │   ├── Literature
-│   │   ├── Explainability
-│   │   ├── Reports
-│   │   └── Settings
-│   │
-│   ├── components/
-│   └── services/
 │
-└── README.md
+├── src/
+│ ├── components/
+│ │ ├── dashboard/
+│ │ ├── mutation/
+│ │ ├── recommendation/
+│ │ ├── literature/
+│ │ ├── trials/
+│ │ ├── explainability/
+│ │ ├── reports/
+│ │ └── settings/
+│ │
+│ ├── context/
+│ ├── layouts/
+│ ├── pages/
+│ ├── routes/
+│ ├── services/
+│ └── theme/
+│
+├── screenshots/
+├── README.md
+└── requirements.txt
+---
+
+# 📸 Application Screenshots
+
+
+## 🏠 Dashboard
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/4acaa5c4-bc03-4da4-ae7e-5c8a816f0c9d" />
+
+
+---
+
+## 🧬 Mutation Analysis
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/6da1f11b-edfe-45d3-bebb-ddaab8f9e86b" />
+
+
+---
+
+## 💊 Drug Recommendations
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/37f86ba4-b8eb-4a39-8746-f3cdd0a5b4a7" />
+
+
+---
+
+## 🔍 Explainable AI (XAI)
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/c8950412-9b16-4f16-bdca-f412063e305a" />
+
+
+---
+
+## 🧪 Clinical Trials
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/633e5daa-1168-4217-bfc5-0d3b790eed3c" />
+
+
+---
+
+## 📚 Literature Mining
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/177f8d87-c04e-4ed6-a777-07018217f2ea" />
+
+
+---
+
+## 📄 Clinical Report
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/0a13a725-637c-4ea6-8ead-291381ffc42a" />
+
+
+---
+
+## ⚙️ Settings
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/8572d721-6888-4114-89d1-58a40b0591cc" />
+
+
+---
+
+# 🎯 Research Contributions
+
+This project contributes to the growing field of **AI-assisted precision oncology** by integrating multiple computational paradigms into a unified clinical decision support framework.
+
+### Major Contributions
+
+- Hybrid **Artificial Intelligence + Quantum Machine Learning** framework
+- Multi-agent architecture for intelligent clinical workflows
+- Mutation-driven personalized therapy recommendation
+- Explainable AI (XAI) for transparent clinical decisions
+- Biomedical literature mining and evidence aggregation
+- Clinical trial matching
+- Knowledge Graph integration
+- Automated clinical report generation
+- Modern web-based clinical dashboard
+
+---
+
+# ⚛️ Quantum Machine Learning Significance
+
+This project explores the application of **Quantum Machine Learning (QML)** in precision oncology by integrating quantum models into the prediction pipeline.
+
+Implemented quantum components include:
+
+- Quantum Support Vector Classifier (QSVC)
+- Quantum Neural Networks (QNN)
+- Quantum Feature Maps
+- Quantum Kernels
+- Hybrid Quantum–Classical Inference
+
+Rather than replacing classical AI, the platform adopts a **hybrid AI–Quantum architecture**, where quantum models complement conventional machine learning to investigate their potential for genomic data analysis and personalized treatment recommendation.
+
+---
+
+# 🏥 Clinical Decision Support Workflow
+
+```text
+Patient Genomic Data
+        │
+        ▼
+Mutation Analysis
+        │
+        ▼
+Knowledge Graph Search
+        │
+        ▼
+Hybrid AI + Quantum ML Prediction
+        │
+        ▼
+Targeted Drug Ranking
+        │
+        ▼
+Clinical Evidence Aggregation
+        │
+        ▼
+Biomedical Literature Mining
+        │
+        ▼
+Clinical Trial Matching
+        │
+        ▼
+Explainable AI
+        │
+        ▼
+Clinical Report Generation
 ```
 
 ---
 
-# 📸 Application Modules
+# 📈 Future Enhancements
 
-- Dashboard
-- Mutation Analysis
-- Drug Recommendations
-- Explainable AI (XAI)
-- Clinical Trials
-- Literature Mining
-- Clinical Reports
-- Settings
+The following features are planned for future releases:
 
----
+### AI
 
-# ⚡ Installation
+- Large Language Model integration
+- Retrieval-Augmented Generation (RAG)
+- Drug toxicity prediction
+- Drug combination optimization
+- Survival prediction
+- Multi-omics analysis
 
-## Clone Repository
+### Quantum Computing
 
-```bash
-git clone https://github.com/<your-username>/Quantum_AI_Cancer.git
+- Variational Quantum Classifiers
+- Quantum Graph Neural Networks
+- Quantum Reinforcement Learning
+- Quantum Feature Selection
+- Quantum Optimization
 
-cd Quantum_AI_Cancer
-```
+### Clinical
 
----
+- Electronic Health Record (EHR) integration
+- HL7/FHIR interoperability
+- Multi-patient management
+- Patient timeline visualization
+- Longitudinal treatment monitoring
 
-## Backend
+### Engineering
 
-```bash
-cd backend
-
-python -m venv venv
-
-source venv/bin/activate
-
-pip install -r requirements.txt
-
-uvicorn app.main:app --reload
-```
-
-Backend runs at
-
-```
-http://localhost:8000
-```
+- Authentication & Role-Based Access Control
+- PostgreSQL integration
+- Docker deployment
+- Kubernetes orchestration
+- CI/CD pipeline
+- Cloud deployment (AWS / Azure / GCP)
 
 ---
 
-## Frontend
+# 📚 References
 
-```bash
-cd frontend
+This project draws inspiration from established biomedical and AI resources, including:
 
-npm install
-
-npm run dev
-```
-
-Frontend runs at
-
-```
-http://localhost:5173
-```
-
----
-
-# 📊 Implemented Modules
-
-| Module | Status |
-|---------|--------|
-| Dashboard | ✅ |
-| Mutation Analysis | ✅ |
-| Drug Recommendation | ✅ |
-| Explainable AI | ✅ |
-| Literature Mining | ✅ |
-| Clinical Trials | ✅ |
-| Clinical Reports | ✅ |
-| PDF Export | ✅ |
-| CSV Export | ✅ |
-| Print Support | ✅ |
-| Settings | ✅ |
-| Quantum ML | ✅ |
+- FastAPI Documentation
+- React Documentation
+- Material UI
+- Neo4j Graph Database
+- Qiskit Machine Learning
+- Scikit-learn
+- ClinicalTrials.gov
+- PubMed
+- DrugBank
+- CIViC
+- ClinVar
+- COSMIC
+- NCCN Clinical Guidelines
 
 ---
 
-# 🔮 Future Enhancements
+# 🎓 Academic Context
 
-- Authentication & Authorization
-- Patient Management
-- Electronic Health Record (EHR) Integration
-- Docker Deployment
-- PostgreSQL Database
-- Role-Based Access Control
-- Cloud Deployment
-- SHAP/LIME Explainability
-- Real Clinical Data Integration
-- Multi-Cancer Support
+This project was developed as part of the requirements for the **ANRF program in IIT Hyderabad**.
 
----
+The work demonstrates the practical integration of:
 
-# 🎓 Research Significance
-
-This project demonstrates the integration of **Artificial Intelligence**, **Quantum Machine Learning**, and **Explainable AI** for precision oncology.
-
-It serves as a research prototype exploring hybrid AI–Quantum approaches for mutation-driven cancer treatment recommendation and evidence-supported clinical decision support.
+- Artificial Intelligence
+- Quantum Machine Learning
+- Explainable AI
+- Precision Oncology
+- Biomedical Informatics
+- Clinical Decision Support Systems
 
 ---
 
 # ⚠️ Disclaimer
 
-This software is intended **only for educational and research purposes**.
+This software is intended **solely for research, educational, and demonstration purposes**.
 
-It is **not a certified medical device** and should **not be used for clinical diagnosis, treatment decisions, or patient care**.
+It is **not a certified medical device** and **must not be used for clinical diagnosis, treatment planning, or direct patient care**.
+
+Clinical decisions should always be made by qualified healthcare professionals using validated clinical evidence.
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+To contribute:
+
+1. Fork the repository
+2. Create a feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push to GitHub
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Open a Pull Request
+
+---
+
+# 🛣️ Roadmap
+
+## Version 1.0 ✅
+
+- Dashboard
+- Mutation Analysis
+- Drug Recommendation
+- Explainable AI
+- Literature Mining
+- Clinical Trials
+- Reports
+- Settings
+- Quantum Machine Learning Integration
+
+---
+
+## Version 2.0 🚧
+
+- Authentication
+- Patient Management
+- Database Integration
+- Knowledge Graph Expansion
+- Cloud Deployment
+
+---
+
+## Version 3.0 🔬
+
+- Multi-omics Analysis
+- Federated Learning
+- Quantum Graph Neural Networks
+- Real-time Hospital Integration
+- Clinical Validation
+
 
 ---
 
@@ -396,12 +677,60 @@ It is **not a certified medical device** and should **not be used for clinical d
 
 **Mahitha Chopra Lankapalli**
 
-M.Sc. Artificial Intelligence & Data Science
+**M.Sc. Artificial Intelligence & Data Science**
 
-Artificial Intelligence • Quantum Machine Learning • Precision Oncology • Healthcare AI
+### Research Interests
+
+- Artificial Intelligence
+- Quantum Machine Learning
+- Precision Oncology
+- Explainable AI
+- Biomedical Informatics
+- Clinical Decision Support Systems
+- Healthcare AI
+
+**GitHub**
+
+https://github.com/mahithachopra
+
+**LinkedIn**
+
+www.linkedin.com/in/mahitha-chopra-lankapalli
+
+
 
 ---
 
-# 📜 License
+# ⭐ Acknowledgements
+I am very grateful to my **Prof.G. Narahari Sastry**,**Department of Biotechnology** for guiding me throughout of my entire project.
 
-This project is licensed under the **MIT License**.
+Special thanks to the open-source community and the projects that made this work possible:
+
+- FastAPI
+- React
+- Material UI
+- Neo4j
+- Scikit-learn
+- Qiskit Machine Learning
+- PubMed
+- ClinicalTrials.gov
+- DrugBank
+- CIViC
+- ClinVar
+- COSMIC
+
+---
+
+<p align="center">
+
+**⭐ If you find this project useful, consider giving it a star on GitHub! ⭐**
+
+</p>
+
+---
+
+<p align="center">
+
+Made with ❤️ using **Artificial Intelligence**, **Quantum Machine Learning**, and **Precision Oncology**.
+
+</p>
