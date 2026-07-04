@@ -394,64 +394,7 @@ Quantum\_AI\_Cancer/
 └── requirements.txt
 ---
 
-# 📸 Application Screenshots
 
-
-## 🏠 Dashboard
-
-<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/4acaa5c4-bc03-4da4-ae7e-5c8a816f0c9d" />
-
-
----
-
-## 🧬 Mutation Analysis
-
-<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/6da1f11b-edfe-45d3-bebb-ddaab8f9e86b" />
-
-
----
-
-## 💊 Drug Recommendations
-
-<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/37f86ba4-b8eb-4a39-8746-f3cdd0a5b4a7" />
-
-
----
-
-## 🔍 Explainable AI (XAI)
-
-<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/c8950412-9b16-4f16-bdca-f412063e305a" />
-
-
----
-
-## 🧪 Clinical Trials
-
-<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/633e5daa-1168-4217-bfc5-0d3b790eed3c" />
-
-
----
-
-## 📚 Literature Mining
-
-<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/177f8d87-c04e-4ed6-a777-07018217f2ea" />
-
-
----
-
-## 📄 Clinical Report
-
-<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/0a13a725-637c-4ea6-8ead-291381ffc42a" />
-
-
----
-
-## ⚙️ Settings
-
-<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/8572d721-6888-4114-89d1-58a40b0591cc" />
-
-
----
 
 # 🎯 Research Contributions
 
@@ -521,7 +464,64 @@ Clinical Report Generation
 ```
 
 ---
+# 📸 Application Screenshots
 
+
+## 🏠 Dashboard
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/4acaa5c4-bc03-4da4-ae7e-5c8a816f0c9d" />
+
+
+---
+
+## 🧬 Mutation Analysis
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/6da1f11b-edfe-45d3-bebb-ddaab8f9e86b" />
+
+
+---
+
+## 💊 Drug Recommendations
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/37f86ba4-b8eb-4a39-8746-f3cdd0a5b4a7" />
+
+
+---
+
+## 🔍 Explainable AI (XAI)
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/c8950412-9b16-4f16-bdca-f412063e305a" />
+
+
+---
+
+## 🧪 Clinical Trials
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/633e5daa-1168-4217-bfc5-0d3b790eed3c" />
+
+
+---
+
+## 📚 Literature Mining
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/177f8d87-c04e-4ed6-a777-07018217f2ea" />
+
+
+---
+
+## 📄 Clinical Report
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/0a13a725-637c-4ea6-8ead-291381ffc42a" />
+
+
+---
+
+## ⚙️ Settings
+
+<img width="1850" height="1053" alt="image" src="https://github.com/user-attachments/assets/8572d721-6888-4114-89d1-58a40b0591cc" />
+
+
+---
 # 📈 Future Enhancements
 
 The following features are planned for future releases:
