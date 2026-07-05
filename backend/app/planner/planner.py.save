@@ -1,0 +1,173 @@
+from app.planner.workflow import Workflow
+
+from app.planner.task import Task
+
+
+class Planner:
+
+    """
+    Creates workflows dynamically
+    based on the user's goal.
+    """
+
+    def create_workflow(
+
+        self,
+
+        goal: str
+
+    ):
+
+        workflow = Workflow(
+
+            name=goal
+
+        )
+
+        goal = goal.lower()
+
+        if "combination" in goal:
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Mutation",
+
+                    agent="Mutation Agent",
+
+                    priority=1
+
+                )
+
+            )
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Graph",
+
+                    agent="Gra                    priority=2
+
+                )
+
+            )
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Drug",
+
+                    agent="Drug Agent",
+
+                    priority=3
+
+                )
+
+            )
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Combination",
+
+                    agent="Combination Agent",
+
+                    priority=4
+
+                )
+
+            )
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Explainability",
+
+                    agent="Explainability Agent",
+
+                    priority=5
+
+                )
+
+            )
+
+        else:
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Mutation",
+
+                    agent="Mutation Agent",
+
+                    priority=1
+
+                )
+
+            )
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Pathway",
+
+                    agent="Pathway Agent",
+
+                    priority=2
+
+                )
+
+            )
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Graph",
+
+                    agent="Graph Agent",
+
+                    priority=3
+
+                )
+
+            )
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Drug",
+
+                    agent="Drug Agent",
+
+                    priority=4
+
+                )
+
+            )
+
+            workflow.add_task(
+
+                Task(
+
+                    name="Explainability",
+
+                    agent="Explainability Agent",
+
+                    priority=5
+
+                )
+
+            )
+
+        return workflow
+^x
+
