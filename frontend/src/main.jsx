@@ -1,0 +1,22 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+import { ThemeProvider } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
+
+import theme from "./theme/theme";
+import AppRoutes from "./routes/AppRoutes";
+import { PipelineProvider } from "./context/PipelineContext";
+
+ReactDOM.createRoot(
+  document.getElementById("root")
+).render(
+  <React.StrictMode>
+    <PipelineProvider>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <AppRoutes />
+      </ThemeProvider>
+    </PipelineProvider>
+  </React.StrictMode>
+);
